@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 测试的 git 命令
+    
 }
 
 - (void)didReceiveMemoryWarning {
