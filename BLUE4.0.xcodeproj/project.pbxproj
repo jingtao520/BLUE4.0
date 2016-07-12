@@ -14,6 +14,7 @@
 		45727EFE1B2584E400FA9BA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45727EFD1B2584E400FA9BA0 /* Images.xcassets */; };
 		45727F011B2584E400FA9BA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45727EFF1B2584E400FA9BA0 /* LaunchScreen.xib */; };
 		45727F0D1B2584E400FA9BA0 /* BLUE4_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45727F0C1B2584E400FA9BA0 /* BLUE4_0Tests.m */; };
+		B7463FFB1D347DCF00A87369 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7463FFA1D347DCF00A87369 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		45727F061B2584E400FA9BA0 /* BLUE4.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLUE4.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45727F0B1B2584E400FA9BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45727F0C1B2584E400FA9BA0 /* BLUE4_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLUE4_0Tests.m; sourceTree = "<group>"; };
+		B7463FF91D347DCF00A87369 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = ../TestViewController.h; sourceTree = "<group>"; };
+		B7463FFA1D347DCF00A87369 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = ../TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				45727EF51B2584E400FA9BA0 /* AppDelegate.m */,
 				45727EF71B2584E400FA9BA0 /* ViewController.h */,
 				45727EF81B2584E400FA9BA0 /* ViewController.m */,
+				B7463FF91D347DCF00A87369 /* TestViewController.h */,
+				B7463FFA1D347DCF00A87369 /* TestViewController.m */,
 				45727EFA1B2584E400FA9BA0 /* Main.storyboard */,
 				45727EFD1B2584E400FA9BA0 /* Images.xcassets */,
 				45727EFF1B2584E400FA9BA0 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				45727EF91B2584E400FA9BA0 /* ViewController.m in Sources */,
 				45727EF61B2584E400FA9BA0 /* AppDelegate.m in Sources */,
+				B7463FFB1D347DCF00A87369 /* TestViewController.m in Sources */,
 				45727EF31B2584E400FA9BA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				45727F121B2584E400FA9BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45727F131B2584E400FA9BA0 /* Build configuration list for PBXNativeTarget "BLUE4.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				45727F151B2584E400FA9BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
